@@ -4,5 +4,197 @@
 .page{
   background-color: #2A2C2F;
  font-family: 'Inter','Arial','Helvetica', sans-serif;
+ width: 1024px;
+ margin: 0 auto;
 }
+.header{
+  border: 1px solid pink;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 48px;
+}
+.header__logo{
+  border: 1px solid pink;
+  width: 176px;
+  height: 52px;
+ margin: 28px 0 0 48px;
+}
+.header__lang-links{
+  border: 1px solid pink;
+margin: 46px 48px 0 0;
+text-decoration: none;
+}
+.header__lang-links:first-child{
+  margin-right: 18px;
+}
+.header__lang-link{
+  border: 1px solid pink;
+  width: 30px;
+  height: 28px;
+  color:  #FFFFFF;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: none;
+  margin: 0;
+}
+.lead{
+  border: 1px solid pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid pink;
+}
+  .lead__title{
+    border: 1px solid pink;
+    width: 720px;
+    height: 200px;
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 100px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 152px 32px;
+  }
+  .lead__subtitle{
+    border: 1px solid pink;
+  width: 640px;
+  height: 72px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0 192px 56px;
+  }
+  .lead__content{
+    border: 1px solid pink;
+    width: 928px;
+    border: 1px solid pink;
+  }
+  .lead__image{
+    border: 1px solid pink;
+  width: 928px;
+  height: 580px;
+  margin: 0 48 8;
+  }
+  .lead__caption{
+    border: 1px solid pink;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0;
+  }
+  .intro{
 
+    border: 1px solid pink;
+    width: 690px;
+    height: 429px;
+    margin: 92px 286px 92px 48px;
+  }
+  .intro__title{
+    border: 1px solid pink;
+  width: 690px;
+  height: 58px;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  color: #FFFFFF;
+  margin: 0 0 40px;
+  }
+  .intro__text{
+    border: 1px solid pink;
+    width: 690px;
+    height: 208px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  color: #FFFFFF;
+  margin: 0 0 33px;
+  }
+
+  .intro__list{
+    border: 1px solid pink;
+  width: 690px;
+  height: 90px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  color: #FFFFFF;
+  text-align: start;
+  margin: 0 ;
+  }
+  .photo-grid{
+    border: 1px solid pink;
+    width: 928px;
+    height: 942px;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(4, 225px);
+    gap: 14px;
+    margin: 0 48px 92px;
+  }
+  .photo-grid__item{
+    border: 1px solid pink;
+    width: 300px;
+  height: 225px;
+  }
+
+.places{
+  border: 1px solid pink;
+
+}
+.place{
+  border: 1px solid pink;
+  width: 928px;
+  margin: 0 48px 80px;
+  display: grid;
+  grid-template-columns: 440px 456px;
+  grid-template-rows:  repeat(3, 1fr);
+  grid-template-areas:
+  "title website"
+  "image paragraph"
+  "image paragraph";
+}
+.place__title{
+  border: 1px solid pink;
+  width: 440px;
+height: 152px;
+font-weight: 900;
+font-size: 72px;
+line-height: 76px;
+color:#FFFFFF;
+margin: 0 32px 48px 0;
+grid-area:title;
+}
+.place__image{
+  border: 1px solid pink;
+  width: 440px;
+height: 440px;
+grid-area:image;
+}
+.place__website{
+  border: 1px solid pink;
+  width: 456px;
+  height: 46px;
+grid-area:website;
+}
+.place__url-heading{
+  margin:0;
+}
+.place__link{
+  margin: 12px 0 0;
+}
+.place__paragraph{
+  border: 1px solid pink;
+  width: 456px;
+font-weight: 400;
+font-size: 18px;
+line-height: 163%;
+color: #FFFFFF;
+grid-area:paragraph;
+}
