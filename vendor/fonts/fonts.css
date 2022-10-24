@@ -1,0 +1,5 @@
+@font-face{
+  src: url(./Inter.woff) format('woof');
+  src: url(./Inter.ttf) format('truetype');
+  font-family: 'Inter';
+}
