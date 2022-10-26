@@ -1,16 +1,6 @@
 .header__lang-links{
 border: 1px solid pink;
-margin: 30px 16px 0 0;
+margin:0;
 display:flex;
 gap: 18px;
 }
-@media screen and (min-width: 568px){
-  .header__lang-links{
-  margin: 46px 24px 0 0;
-  }
-}
-  @media screen and (min-width: 984px){
-    .header__lang-links{
-    margin: 46px 48px 0 0;
-    }
-  }
