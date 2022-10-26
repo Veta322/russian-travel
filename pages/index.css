@@ -1,43 +1,20 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__content/page__content.css);
+@import url(../blocks/content/content.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-links/header__lang-links.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
 
-.page{
-  background-color: #2A2C2F;
- font-family: 'Inter','Arial','Helvetica', sans-serif;
- width: 1024px;
- margin: 0 auto;
-}
-.header{
-  border: 1px solid pink;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 0 48px;
-}
-.header__logo{
-  border: 1px solid pink;
-  width: 176px;
-  height: 52px;
- margin: 28px 0 0 48px;
-}
-.header__lang-links{
-  border: 1px solid pink;
-margin: 46px 48px 0 0;
-text-decoration: none;
-}
-.header__lang-links:first-child{
-  margin-right: 18px;
-}
-.header__lang-link{
-  border: 1px solid pink;
-  width: 30px;
-  height: 28px;
-  color:  #FFFFFF;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
-  text-decoration: none;
-  margin: 0;
-}
+
+
+
+
+
+
+
 .lead{
   border: 1px solid pink;
   display: flex;
@@ -153,35 +130,33 @@ text-decoration: none;
   width: 928px;
   margin: 0 48px 80px;
   display: grid;
-  grid-template-columns: 440px 456px;
-  grid-template-rows:  repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  box-sizing: border-box;
   grid-template-areas:
   "title website"
   "image paragraph"
   "image paragraph";
 }
 .place__title{
-  border: 1px solid pink;
-  width: 440px;
-height: 152px;
+ border: 1px solid pink;
 font-weight: 900;
 font-size: 72px;
 line-height: 76px;
 color:#FFFFFF;
-margin: 0 32px 48px 0;
-grid-area:title;
+grid-area: title;
 }
 .place__image{
   border: 1px solid pink;
   width: 440px;
-height: 440px;
-grid-area:image;
+  height: 440px;
+grid-area: image;
 }
 .place__website{
   border: 1px solid pink;
   width: 456px;
   height: 46px;
-grid-area:website;
+grid-area: website;
 }
 .place__url-heading{
   margin:0;
@@ -190,11 +165,8 @@ grid-area:website;
   margin: 12px 0 0;
 }
 .place__paragraph{
-  border: 1px solid pink;
-  width: 456px;
-font-weight: 400;
-font-size: 18px;
-line-height: 163%;
+border: 1px solid pink;
 color: #FFFFFF;
-grid-area:paragraph;
+
+grid-area: paragraph;
 }
