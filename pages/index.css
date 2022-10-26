@@ -20,58 +20,68 @@
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
 
- /*
+
 .places{
   border: 1px solid pink;
 
 }
 .place{
   border: 1px solid pink;
-  width: 928px;
-  margin: 0 48px 80px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  box-sizing: border-box;
-  grid-template-areas:
-  "title website"
-  "image paragraph"
-  "image paragraph";
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, auto);
+
 }
 .place__title{
  border: 1px solid pink;
-font-weight: 900;
-font-size: 72px;
-line-height: 76px;
+ font-style: normal;
+ font-weight: 900;
+ font-size: 32px;
+ line-height: 35px;
 color:#FFFFFF;
-grid-area: title;
+margin: 0 16px 32px;
 }
 .place__image{
   border: 1px solid pink;
-  width: 440px;
-  height: 440px;
-grid-area: image;
+  width: 320px;
+  height: 320px;
+
 }
 .place__website{
   border: 1px solid pink;
   width: 456px;
   height: 46px;
-grid-area: website;
+  margin: 0 16px 32px;
+
 }
 .place__url-heading{
-  margin:0;
+margin:0;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+letter-spacing: 2px;
+color: #AAAAAA;
 }
 .place__link{
   margin: 12px 0 0;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+text-decoration-line: underline;
+color: #FFFFFF;
 }
 .place__paragraph{
-border: 1px solid pink;
-color: #FFFFFF;
-
-grid-area: paragraph;
-}
-*/
-
+  border: 1px solid pink;
+  color: #FFFFFF;
+  font-style: normal;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 288px;
+ }
 
 
 
