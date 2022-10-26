@@ -1,0 +1,14 @@
+.place{
+  border: 1px solid pink;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, auto);
+}
+
+@media screen and (min-width: 568px){
+  .place{
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
+    margin: 0 24px;
+  }
+  }

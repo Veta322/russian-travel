@@ -1,0 +1,20 @@
+.place__website{
+  border: 1px solid pink;
+  margin: 0 16px 32px;
+}
+
+
+
+@media screen and (min-width: 568px){
+  .place__website{
+  margin: 46px 0 48px 0;
+  }
+  }
+
+  @media screen and (min-width: 984px){
+    .place__website{
+    margin: 30px 0 48px 0;
+    }
+    }
+
+
