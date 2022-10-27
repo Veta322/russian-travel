@@ -1,20 +1,21 @@
-.intro{
-  border: 1px solid pink;
+.intro {
   margin: 64px 16px;
 }
 
-@media screen and (min-width: 568px){
-  .intro{
+@media screen and (min-width: 568px) {
+  .intro {
     margin: 88px 24px;
   }
-  }
-  @media screen and (min-width: 984px){
-    .intro{
+}
+
+@media screen and (min-width: 984px) {
+  .intro {
     margin: 92px 286px 92px 48px;
-    }
-    }
-    @media screen and (min-width: 1124px){
-      .intro{
-      margin: 92px 442px 92px 148px;
-      }
-      }
+  }
+}
+
+@media screen and (min-width: 1124px) {
+  .intro {
+    margin: 92px 442px 92px 148px;
+  }
+}
