@@ -7,8 +7,21 @@
 
 @media screen and (min-width: 568px){
   .place{
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: 340px 352px;
     grid-template-rows: repeat(3, auto);
     margin: 0 24px;
   }
   }
+  @media screen and (min-width: 984px){
+    .place{
+      grid-template-columns: 440px 456px;
+      margin: 0 48px;
+    }
+    }
+
+    @media screen and (min-width: 1124px){
+      .place{
+        grid-template-columns: 460px 484px;
+        margin: 0 148px;
+      }
+      }

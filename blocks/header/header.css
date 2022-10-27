@@ -1,28 +1,27 @@
-.header{
-  border: 1px solid pink;
+.header {
   display: flex;
   justify-content: space-between;
   margin: 16px 16px 48px;
 
 }
 
-@media screen and (min-width: 568px){
-  .header{
+@media screen and (min-width: 568px) {
+  .header {
     margin: 28px 24px 48px;
 
   }
 }
 
-@media screen and (min-width: 984px){
-  .header{
+@media screen and (min-width: 984px) {
+  .header {
     margin: 28px 48px 48px;
 
   }
 }
 
 
-@media screen and (min-width: 1124px){
-  .header{
+@media screen and (min-width: 1124px) {
+  .header {
     margin: 28px 48px 56px;
   }
 }
