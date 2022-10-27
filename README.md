@@ -16,7 +16,7 @@
 **Ссылка на GitHub**
 
 
-https://github.com/Veta322/russian-travel
+https://veta322.github.io/russian-travel/
 
 
 
