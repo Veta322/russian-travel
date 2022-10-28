@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(5, auto);
+
 }
 
 @media screen and (min-width: 568px) {

@@ -1,9 +1,11 @@
 .photo-grid {
   display: grid;
-  grid-template-columns: repeat(1, minmax(min-content, max-content));
-  grid-template-rows: repeat(12, minmax(min-content, max-content));
+  grid-template-columns: repeat(1, auto);
+  grid-template-rows: repeat(12, auto);
   gap: 12px;
   margin: 0 16px 64px;
+  justify-items: center;
+  align-items:center;
 }
 
 

@@ -11,7 +11,7 @@
   position: relative;
   z-index: 1;
   margin: 41px 0 64px;
-  max-width: 320px;
+  width: 100%;
 
 }
 
@@ -36,7 +36,7 @@
   .cover {
     min-height: 480px;
     margin: 65px 0 88px;
-    max-width: 768px;
+
   }
 }
 
@@ -44,7 +44,7 @@
   .cover {
     min-height: 640px;
     margin: 65px 0 92px;
-    max-width: 1024px;
+
   }
 }
 
