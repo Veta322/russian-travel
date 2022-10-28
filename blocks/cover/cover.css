@@ -12,6 +12,7 @@
   z-index: 1;
   margin: 41px 0 64px;
   max-width: 320px;
+
 }
 
 .cover::before {
@@ -47,10 +48,11 @@
   }
 }
 
-@media screen and (min-width: 1124px) {
+@media screen and (min-width: 1280px) {
   .cover {
     min-height: 740px;
-    margin: 65px 48px 92px;
+    margin: 65px 0 92px;
     max-width: 1184px;
+    padding: 0 48px 0;
   }
 }
