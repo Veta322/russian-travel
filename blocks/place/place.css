@@ -19,7 +19,7 @@
   }
 }
 
-@media screen and (min-width: 1124px) {
+@media screen and (min-width: 1225px) {
   .place {
     grid-template-columns: 460px 484px;
     margin: 0 148px;
