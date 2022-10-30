@@ -1,19 +1,19 @@
 .places {
   display: grid;
-  gap: 50px;
+  gap: 25px;
 
 }
 
 @media screen and (min-width: 568px) {
   .places {
-    gap: 73px;
+    gap: 48px;
   }
 
 }
 
 @media screen and (min-width: 984px) {
   .places {
-    gap: 80px;
+    gap: 55px;
   }
 
 }
