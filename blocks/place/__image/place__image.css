@@ -3,6 +3,7 @@
   max-height: 320px;
   justify-self: center;
   margin-bottom: 32px;
+
 }
 
 @media screen and (min-width: 768px) {
@@ -10,6 +11,7 @@
     max-width: 340px;
     max-height: 340px;
     grid-row: span 2;
+    margin:0;
   }
 }
 

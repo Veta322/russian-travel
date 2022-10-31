@@ -5,7 +5,8 @@
   font-size: 16px;
   line-height: 26px;
   margin: 0 16px 25px;
-  justify-self: center;
+
+
 }
 
 @media screen and (min-width: 568px) {
@@ -16,7 +17,7 @@
 
 @media screen and (min-width: 984px) {
   .place__paragraph {
-    margin: 0 0 26px 32px;
+    margin: 0 0 27px 32px;
     font-size: 18px;
     line-height: 29px;
   }
