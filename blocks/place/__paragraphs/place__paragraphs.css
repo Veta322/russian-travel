@@ -1,0 +1,12 @@
+.place__paragraphs{
+  display: grid;
+  gap: 25px;
+}
+
+@media screen and (min-width: 984px) {
+  .place__paragraphs {
+    gap: 27px;
+  }
+}
+
+
