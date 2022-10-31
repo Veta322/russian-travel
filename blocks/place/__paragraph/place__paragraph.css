@@ -16,7 +16,7 @@
 
 @media screen and (min-width: 984px) {
   .place__paragraph {
-    margin: 0 0 26px 32px;
+    margin: 0 0 27px 32px;
     font-size: 18px;
     line-height: 29px;
   }
@@ -24,6 +24,6 @@
 
 @media screen and (min-width: 1124px) {
   .place__paragraph {
-    margin: 0 0 26px 40px;
+    margin: 0 0 27px 40px;
   }
 }
